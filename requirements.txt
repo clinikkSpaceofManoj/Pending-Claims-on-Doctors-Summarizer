@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+openpyxl
+xlsxwriter
+reportlab
+python-dateutil
+pillow
+altair
+pyyaml
