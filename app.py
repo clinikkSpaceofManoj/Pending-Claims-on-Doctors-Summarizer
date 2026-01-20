@@ -33,7 +33,7 @@ if uploaded_file:
     # ----------------------------
     # Filter only in-progress claims
     # ----------------------------
-    df = df[df["claimStatus"].str.lower() == "in progress"]
+    df = df[df["claimStatus"].str.lower() == "in_progress"]
 
     # ----------------------------
     # Compute days since updated
